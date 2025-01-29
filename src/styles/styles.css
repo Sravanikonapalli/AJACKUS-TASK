@@ -177,3 +177,10 @@ p {
 .form-group {
   margin-bottom: 20px;
 }
+
+@media  screen and (max-width:768px) {
+  .btns{
+    display: flex;
+    width: auto;
+  }
+}
