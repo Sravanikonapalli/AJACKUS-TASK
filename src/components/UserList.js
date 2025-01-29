@@ -100,7 +100,7 @@ class UserList extends Component {
                     <td>{user.username}</td>
                     <td>{user.email}</td>
                     <td>{user.address?.city}</td>
-                    <td>
+                    <td className="btns">
                       <button className="action-btn" onClick={() => this.handleEdit(user)}>Edit</button>
                       <button className="action-btn" onClick={() => this.handleDelete(user.id)}>Delete</button>
                     </td>
