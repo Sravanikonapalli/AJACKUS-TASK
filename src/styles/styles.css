@@ -3,7 +3,7 @@ table {
     border-collapse: collapse;
   }
   .action-btn{
-      margin:8px;
+      margin:5px;
       border:1px solid #f97316;
       background-color: transparent;
       color:#f97316;
@@ -188,4 +188,7 @@ p {
     display: flex;
     width: auto;
   }
+}
+.btns{
+    display:flex;
 }
