@@ -2,7 +2,12 @@ table {
     width: 100%;
     border-collapse: collapse;
   }
-  
+  .action-btn{
+      margin:8px;
+      border:1px solid #f97316;
+      background-color: transparent;
+      color:#f97316;
+  }
   th, td {
     border: 1px solid #ddd;
     padding: 8px;
